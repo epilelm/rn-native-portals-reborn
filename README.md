@@ -2,8 +2,6 @@
 
 **This project is not under active development. Feel free to fork it, to take inspiration, create a copy or anything that make you feel productive.**
 
-[Here's the story _why_ we've built this library](https://tech.bedrockstreaming.com/6play/how-a-fullscreen-video-mode-ended-up-implementing-react-native-portals/)
-
 React Native implementation of [ReactDOM portals](https://reactjs.org/docs/portals.html) using a declarative API.
 
 This library makes possible the _teleportation_ of views from a place to another one.
@@ -20,8 +18,12 @@ This library makes possible the _teleportation_ of views from a place to another
 ### Installation
 
 ```
-$ yarn add mfrachet/rn-native-portals
-$ react-native link
+$ yarn add @alexzunik/rn-native-portals-reborn
+```
+
+for ios
+```
+$ npx pod-install
 ```
 
 ### In your code
@@ -29,7 +31,7 @@ $ react-native link
 Somewhere high in your component tree, add a `PortalDestination` (a portal destination):
 
 ```javascript
-import {  PortalDestination } from "rn-native-portals";
+import {  PortalDestination } from "@alexzunik/rn-native-portals-reborn";
 
 render() {
 	return (
@@ -41,7 +43,7 @@ render() {
 Somewhere else in the tree, add a `PortalOrigin` (a portal origin):
 
 ```javascript
-import { PortalOrigin } from 'rn-native-portals';
+import { PortalOrigin } from '@alexzunik/rn-native-portals-reborn';
 
 render() {
 	return (
@@ -58,7 +60,3 @@ When the `shouldMove` state will change to something truthy, the `View` and the 
 previously.
 
 If the value of the `destination` prop is set to `null`, the `View` and `Text` are restituted to their original place.
-
----
-
-Built with ❤️ at [M6 Web](http://tech.m6web.fr/)
