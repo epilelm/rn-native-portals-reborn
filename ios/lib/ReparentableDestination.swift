@@ -3,7 +3,7 @@ import UIKit
 class PortalDestination: UIView, PortalView {
   
   var registry: PortalRegistry
-  var lastOrigin: PortalOrigin?
+  weak var lastOrigin: PortalOrigin?
   
   @objc var name: NSString {
     didSet {
@@ -39,5 +39,10 @@ class PortalDestination: UIView, PortalView {
   
   required init?(coder aDecoder: NSCoder) {
     fatalError("init(coder:) has not been implemented")
+  }
+  
+  deinit {
+    registry.remove(destination: self)
+    print("deinit target with name: \(name)")
   }
 }

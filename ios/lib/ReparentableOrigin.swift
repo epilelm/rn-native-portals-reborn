@@ -12,6 +12,9 @@ class PortalOrigin: UIView, PortalView {
       registry.remove(origin: self)
     }
     didSet {
+      if (destination == "") {
+        return
+      }
       registry.put(origin: self)
       move()
     }
@@ -36,6 +39,11 @@ class PortalOrigin: UIView, PortalView {
     self.registry = registry
     destination = ""
     super.init(frame: CGRect.zero)
+  }
+  
+  deinit {
+    registry.remove(origin: self)
+    print("deinit source")
   }
   
   required init?(coder aDecoder: NSCoder) {

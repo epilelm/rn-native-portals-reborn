@@ -1,6 +1,19 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT license" />
+  </a>
+  <a href="http://img.shields.io/npm/v/@alexzunik/rn-native-portals-reborn.svg">
+    <img src="http://img.shields.io/npm/v/react-native-inappbrowser-reborn.svg" alt="Current npm package version" />
+  </a>
+  <a href="https://npmjs.org/package/@alexzunik/rn-native-portals-reborn">
+    <img src="http://img.shields.io/npm/dm/@alexzunik/rn-native-portals-reborn.svg" alt="Downloads" />
+  </a>
+  <a href="https://npmjs.org/package/@alexzunik/rn-native-portals-reborn">
+    <img src="http://img.shields.io/npm/dt/@alexzunik/rn-native-portals-reborn.svg?label=total%20downloads" alt="Total downloads" />
+  </a>
+</p>
 
-**This project is not under active development. Feel free to fork it, to take inspiration, create a copy or anything that make you feel productive.**
+**:fire::fire::fire:This project is reborn of the [this project](https://github.com/mfrachet/rn-native-portals):fire::fire::fire:**
 
 React Native implementation of [ReactDOM portals](https://reactjs.org/docs/portals.html) using a declarative API.
 
