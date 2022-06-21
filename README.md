@@ -2,7 +2,7 @@
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT license" />
   </a>
-  <a href="http://img.shields.io/npm/v/@alexzunik/rn-native-portals-reborn.svg">
+  <a href="https://npmjs.org/package/@alexzunik/rn-native-portals-reborn">
     <img src="http://img.shields.io/npm/v/@alexzunik/rn-native-portals-reborn.svg" alt="Current npm package version" />
   </a>
   <a href="https://npmjs.org/package/@alexzunik/rn-native-portals-reborn">
