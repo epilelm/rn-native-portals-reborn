@@ -25,6 +25,7 @@ This library makes possible the _teleportation_ of views from a place to another
 
 - <a href="#usage">How to use it ?</a>
 - [Understanding the concept](./docs/CONCEPT.md)
+- [example (react-native-video)](./docs/react-native-video.md)
 
 <h1 name="#usage">Usage</h1>
 
