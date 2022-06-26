@@ -1,6 +1,6 @@
 {
   "name": "@alexzunik/rn-native-portals-reborn",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Native side portals for React Native",
   "main": "index.js",
   "types": "index.d.ts",
