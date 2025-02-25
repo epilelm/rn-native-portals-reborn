@@ -12,7 +12,7 @@
   "author": "Aleksandr Nikolaevich <aleksandr.nikolaevich.ch@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": "^0.62.0"
+    "react-native": ">=0.62.0"
   },
   "repository": "https://github.com/AleksandrNikolaevich/rn-native-portals-reborn"
 }
